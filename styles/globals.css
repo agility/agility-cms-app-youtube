@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	#__next {
+		@apply h-full;
+	}
+	.btn {
+		@apply rounded-md border border-gray-200 bg-gray-50 p-1 px-3 hover:bg-gray-100 focus:bg-gray-200;
+	}
+
+	.video-container iframe {
+		@apply absolute top-0 left-0 h-full w-full;
+	}
+}

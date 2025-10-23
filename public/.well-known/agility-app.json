@@ -1,0 +1,16 @@
+{
+	"name": "YouTube App",
+	"documentationLink": "https://agilitycms-documentation-site.vercel.app/docs/apps/youtube",
+	"description": "A YouTube app for Agility CMS.",
+	"version": "1.0.0",
+	"__sdkVersion": "2.0.0",
+	"capabilities": {
+		"fields": [
+			{
+				"name": "youtube-field",
+				"label": "YouTube Field",
+				"description": "A field that allows the user to embed a YouTube video in a content item."
+			}
+		]
+	}
+}
